@@ -6,14 +6,14 @@ This is a dataset for binary sentiment classification containing substantially m
 
 We start by importing the main libraires that we will use:
 
-the re module (for regular expression matching operations)
-the nltk toolkit (for natural language operations)
-the random module (for random number generation)
-the numpy library (for arrays operations)
-the pandas library (for data analysis)
-the scipy.stats module (for statistics)
-the seaborn library (for statistical data visualization)
-the matplotlib.pyplot interface (for MATLAB-like plots)
+the re module (for regular expression matching operations) 
+the nltk toolkit (for natural language operations) 
+the random module (for random number generation) 
+the numpy library (for arrays operations) 
+the pandas library (for data analysis) 
+the scipy.stats module (for statistics) 
+the seaborn library (for statistical data visualization) 
+the matplotlib.pyplot interface (for MATLAB-like plots) 
 
 Next, We've preprocessed the Data using Regex.
 We perform Data Splitting and Tokenization . We split our DataFrame into a training and test lists. We use the train_test_split() function from the sklearn.model_selection module which allow to perform the splitting randomly with respect to the index of the DataFrame.
@@ -25,11 +25,11 @@ We'd used the pad_sequences() function from keras.preprocessing.sequence module,
 
 We've imported some classes from Keras:
 
-the Sequential class from the keras.models API (to group a linear stack of layers into a model)
-the Embedding class from the keras.layers API (to turn positive integers (indexes) into dense vectors of fixed size)
-the LSTM class from the keras.layers API (to apply a long short-term memory layer to an input)
-the Dropout class from the keras.layers API (to apply dropout to an input)
-the Dense class from the keras.layers API (to apply a regular densely-connected NN layer to an input)
+the Sequential class from the keras.models API (to group a linear stack of layers into a model), 
+the Embedding class from the keras.layers API (to turn positive integers (indexes) into dense vectors of fixed size), 
+the LSTM class from the keras.layers API (to apply a long short-term memory layer to an input), 
+the Dropout class from the keras.layers API (to apply dropout to an input), 
+the Dense class from the keras.layers API (to apply a regular densely-connected NN layer to an input), 
 
 In the LSTM model, we set the following parameters:
 
